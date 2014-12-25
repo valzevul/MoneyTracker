@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		82F58E6E1A4B556700FE77E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F58E6D1A4B556700FE77E2 /* AppDelegate.swift */; };
-		82F58E701A4B556700FE77E2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F58E6F1A4B556700FE77E2 /* FirstViewController.swift */; };
-		82F58E721A4B556700FE77E2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F58E711A4B556700FE77E2 /* SecondViewController.swift */; };
+		82F58E701A4B556700FE77E2 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F58E6F1A4B556700FE77E2 /* TransactionsViewController.swift */; };
+		82F58E721A4B556700FE77E2 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F58E711A4B556700FE77E2 /* GoalsViewController.swift */; };
 		82F58E751A4B556700FE77E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F58E731A4B556700FE77E2 /* Main.storyboard */; };
 		82F58E771A4B556800FE77E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F58E761A4B556800FE77E2 /* Images.xcassets */; };
 		82F58E7A1A4B556800FE77E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F58E781A4B556800FE77E2 /* LaunchScreen.xib */; };
@@ -30,8 +30,8 @@
 		82F58E681A4B556700FE77E2 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F58E6C1A4B556700FE77E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F58E6D1A4B556700FE77E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82F58E6F1A4B556700FE77E2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		82F58E711A4B556700FE77E2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		82F58E6F1A4B556700FE77E2 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		82F58E711A4B556700FE77E2 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		82F58E741A4B556700FE77E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82F58E761A4B556800FE77E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82F58E791A4B556800FE77E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				82F58E6D1A4B556700FE77E2 /* AppDelegate.swift */,
-				82F58E6F1A4B556700FE77E2 /* FirstViewController.swift */,
-				82F58E711A4B556700FE77E2 /* SecondViewController.swift */,
+				82F58E6F1A4B556700FE77E2 /* TransactionsViewController.swift */,
+				82F58E711A4B556700FE77E2 /* GoalsViewController.swift */,
 				82F58E731A4B556700FE77E2 /* Main.storyboard */,
 				82F58E761A4B556800FE77E2 /* Images.xcassets */,
 				82F58E781A4B556800FE77E2 /* LaunchScreen.xib */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F58E721A4B556700FE77E2 /* SecondViewController.swift in Sources */,
+				82F58E721A4B556700FE77E2 /* GoalsViewController.swift in Sources */,
 				82F58E6E1A4B556700FE77E2 /* AppDelegate.swift in Sources */,
-				82F58E701A4B556700FE77E2 /* FirstViewController.swift in Sources */,
+				82F58E701A4B556700FE77E2 /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +409,7 @@
 				82F58E8B1A4B556800FE77E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F58E8C1A4B556800FE77E2 /* Build configuration list for PBXNativeTarget "MoneyTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				82F58E8E1A4B556800FE77E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
